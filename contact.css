@@ -1,0 +1,74 @@
+
+.background-image {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.background-image img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.form-control {
+    flex: 2;
+}
+
+.owl-carousel .item img {
+    max-width: 100px;
+    max-height: auto;
+}
+
+.owl-carousel {
+    max-width: 800px; 
+    max-height: 800px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    border-radius: 15px;
+    border: 1px solid #ced4da;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+.card-container {
+    width: 300px;
+    margin-right: auto;
+}
+
+.card-body h2 {
+    text-align: center;
+    color: rgb(167, 95, 14);
+}
+
+.btn-primary {
+    color: rgb(167, 95, 14);
+}
+
+.bottom-overlay {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}

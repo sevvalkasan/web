@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="architect.css">
+</head>
+<body>
+  <div class="background-image">
+    <img src="img/img4.jpg" alt="Background Image" class="hidden">
+    <div class="container-fluid text-center">
+        <h1 class="cursive-font my-3">Travel & Destinations</h1>
+    </div>
+    <div class="text-overlay">
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center text-white">
+            <h2 class="cursive-font display-4 mb-4">Hoş Geldiniz!</h2>
+            <p class="lead">Seyahat etmek, ruhunuzu besleyen, dünyayı keşfetmenizi sağlayan bir macera. Hayatınızın her anında, yeni yerler keşfetmek ve farklı kültürlerle tanışmak size büyük bir haz verebilir. İster tropik bir adaya kaçış arıyor olun, ister sakin bir dağ kasabasını keşfetmek isteyin, biz buradayız!</p>
+            <p class="lead"><strong><a href="#" id="exploreBtn" class="text-white">Birlikte Keşfetmek İçin Hazırız.</a></strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home.php">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="seyahatlerimiz.html">Seyahatlerimiz</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.php">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="user.php">Giriş Yap</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search" id="searchForm">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchInput">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-3" id="exploreCarousel" style="display: none;">
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="details_paris.html"> 
+                <img src="img/about1.jpg" class="d-block w-100" alt="Resim Açıklaması">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Paris</h5>
+                    <p>Seyahat acentemiz olarak, size en iyi tatil deneyimini sunmak için buradayız. Antik şehirlerin gizemini çözmek, egzotik plajlarda dinlenmek, yerel lezzetleri denemek veya doğanın güzelliklerini keşfetmek istediğinizde, yanınızdayız.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="details_kzyisk.html"> 
+                <img src="img/about2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Kuzey Işıkları</h5>
+                    <p>Dünya, keşfedilmeyi bekleyen bir hazinedir ve biz, seyahat acentemiz olarak, size bu hazinenin anahtarını sunuyoruz. Antik şehirlerin derin sırlarını çözmek için Roma'nın sokaklarında yürüyebilir, egzotik plajların altın kumlarına adım atabilir, dünyanın en lezzetli yemeklerini tadabilir veya doğanın benzersiz güzelliklerini keşfedebilirsiniz. İster Güney Amerika'nın yağmur ormanlarında izler sürün, ister Avrupa'nın tarih dolu sokaklarında kaybolun, sizin için unutulmaz bir seyahat deneyimi hazırlamak için buradayız.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="details_tokyo.html">
+                <img src="img/about3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Tokyo</h5>
+                    <p>Tokyo'ya her ziyaret, yeni keşifler ve unutulmaz anılarla dolu bir macera vaat eder. Bu heyecan verici şehri keşfetmek için hazır mısınız?</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="details_yunanistan.html"> 
+                <img src="img/img1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Yunanistan</h5>
+                    <p>Yunanistan'ı keşfetmeye her ziyaret, yeni keşifler ve unutulmaz anılarla dolu bir macera vaat eder. Bu heyecan verici şehri keşfetmek için hazır mısınız?</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="details_italya.html">
+                <img src="img/italyafloransa.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>İtalya</h5>
+                    <p>İtalya'nın eşsiz tarihini ve kültürünü keşfetmeye hazır olun. Rönesans sanatının merkezi Floransa'da dolaşmak, Roma'nın antik kalıntılarını görmek, Venedik'in kanallarında romantik bir gezi yapmak için sizi bekliyoruz.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="details_kapadokya.html"> 
+                <img src="img/kapadokya.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Kapadokya</h5>
+                    <p>Kapadokya'nın peri bacaları arasında geçmişe yolculuk yapmaya ne dersiniz? Eşsiz doğal oluşumları ve tarihi yapılarıyla Kapadokya, unutulmaz bir keşif deneyimi sunuyor.</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+<script>
+    document.getElementById("exploreBtn").addEventListener("click", function(event) {
+        event.preventDefault(); 
+
+
+        document.getElementById("exploreCarousel").style.display = "block";
+        document.getElementById("exploreCarousel").scrollIntoView({ behavior: 'smooth' });
+
+    });
+</script>
+</body>
+</html>
